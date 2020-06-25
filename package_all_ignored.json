@@ -13,9 +13,9 @@
     "autoupdate": {
         "fileMap": [
             {
-                "basePath": "all_ignored",
+                "basePath": "src/all_ignored",
                 "files": [
-                    "*"
+                    "**"
                 ]
             }
         ],
