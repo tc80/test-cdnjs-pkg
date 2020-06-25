@@ -10,6 +10,6 @@ Then run inside `tools/`:
 
 `make checker && ./bin/checker lint <path to package json file>`
 
-For example, if testing [package_all_ignored.json](package_all_ignored.json), run:
+For example, if testing [package_all_ignored.json](package_all_ignored.json) and it's path is `~/Desktop/test-cdnjs-pkg/package_all_ignored.json`, run:
 
-`make checker && ./bin/checker lint package_all_ignored.json`
+`make checker && ./bin/checker lint ~/Desktop/test-cdnjs-pkg/package_all_ignored.json`
