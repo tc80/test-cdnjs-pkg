@@ -13,3 +13,5 @@ Then run inside `tools/`:
 For example, if testing [package_all_ignored.json](package_all_ignored.json) and its path is `~/Desktop/test-cdnjs-pkg/package_all_ignored.json`, run:
 
 `make checker && ./bin/checker lint ~/Desktop/test-cdnjs-pkg/package_all_ignored.json`
+
+Note that hidden files will be ignored by the checker, regardless of the glob provided. For example, [.DS_Store files](src/all_ignored/.DS_Store).
